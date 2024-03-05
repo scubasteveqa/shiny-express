@@ -2,7 +2,7 @@ from shiny import reactive
 from shiny.express import input, render, ui
 from shinywidgets import render_plotly
 
-ui.page_opts(title="Penguins dashboard", fillable=True)
+ui.page_opts(title="Penguins dashboard - updated by Steve", fillable=True)
 
 with ui.sidebar():
     ui.input_selectize(
